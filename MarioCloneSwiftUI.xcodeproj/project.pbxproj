@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F8DF17502DC16CAF00BF4FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8DF17372DC16CAD00BF4FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8DF173E2DC16CAD00BF4FEA;
+			remoteInfo = MarioCloneSwiftUI;
+		};
+		F8DF175A2DC16CAF00BF4FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8DF17372DC16CAD00BF4FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8DF173E2DC16CAD00BF4FEA;
+			remoteInfo = MarioCloneSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8DF173F2DC16CAD00BF4FEA /* MarioCloneSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioCloneSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DF174F2DC16CAF00BF4FEA /* MarioCloneSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioCloneSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DF17592DC16CAF00BF4FEA /* MarioCloneSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioCloneSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F8DF17412DC16CAD00BF4FEA /* MarioCloneSwiftUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarioCloneSwiftUI;
+			sourceTree = "<group>";
+		};
+		F8DF17522DC16CAF00BF4FEA /* MarioCloneSwiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarioCloneSwiftUITests;
+			sourceTree = "<group>";
+		};
+		F8DF175C2DC16CAF00BF4FEA /* MarioCloneSwiftUIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MarioCloneSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8DF173C2DC16CAD00BF4FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DF174C2DC16CAF00BF4FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DF17562DC16CAF00BF4FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8DF17362DC16CAD00BF4FEA = {
+			isa = PBXGroup;
+			children = (
+				F8DF17412DC16CAD00BF4FEA /* MarioCloneSwiftUI */,
+				F8DF17522DC16CAF00BF4FEA /* MarioCloneSwiftUITests */,
+				F8DF175C2DC16CAF00BF4FEA /* MarioCloneSwiftUIUITests */,
+				F8DF17402DC16CAD00BF4FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8DF17402DC16CAD00BF4FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8DF173F2DC16CAD00BF4FEA /* MarioCloneSwiftUI.app */,
+				F8DF174F2DC16CAF00BF4FEA /* MarioCloneSwiftUITests.xctest */,
+				F8DF17592DC16CAF00BF4FEA /* MarioCloneSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8DF173E2DC16CAD00BF4FEA /* MarioCloneSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DF17632DC16CAF00BF4FEA /* Build configuration list for PBXNativeTarget "MarioCloneSwiftUI" */;
+			buildPhases = (
+				F8DF173B2DC16CAD00BF4FEA /* Sources */,
+				F8DF173C2DC16CAD00BF4FEA /* Frameworks */,
+				F8DF173D2DC16CAD00BF4FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F8DF17412DC16CAD00BF4FEA /* MarioCloneSwiftUI */,
+			);
+			name = MarioCloneSwiftUI;
+			packageProductDependencies = (
+			);
+			productName = MarioCloneSwiftUI;
+			productReference = F8DF173F2DC16CAD00BF4FEA /* MarioCloneSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8DF174E2DC16CAF00BF4FEA /* MarioCloneSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DF17662DC16CAF00BF4FEA /* Build configuration list for PBXNativeTarget "MarioCloneSwiftUITests" */;
+			buildPhases = (
+				F8DF174B2DC16CAF00BF4FEA /* Sources */,
+				F8DF174C2DC16CAF00BF4FEA /* Frameworks */,
+				F8DF174D2DC16CAF00BF4FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8DF17512DC16CAF00BF4FEA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F8DF17522DC16CAF00BF4FEA /* MarioCloneSwiftUITests */,
+			);
+			name = MarioCloneSwiftUITests;
+			packageProductDependencies = (
+			);
+			productName = MarioCloneSwiftUITests;
+			productReference = F8DF174F2DC16CAF00BF4FEA /* MarioCloneSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8DF17582DC16CAF00BF4FEA /* MarioCloneSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DF17692DC16CAF00BF4FEA /* Build configuration list for PBXNativeTarget "MarioCloneSwiftUIUITests" */;
+			buildPhases = (
+				F8DF17552DC16CAF00BF4FEA /* Sources */,
+				F8DF17562DC16CAF00BF4FEA /* Frameworks */,
+				F8DF17572DC16CAF00BF4FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8DF175B2DC16CAF00BF4FEA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F8DF175C2DC16CAF00BF4FEA /* MarioCloneSwiftUIUITests */,
+			);
+			name = MarioCloneSwiftUIUITests;
+			packageProductDependencies = (
+			);
+			productName = MarioCloneSwiftUIUITests;
+			productReference = F8DF17592DC16CAF00BF4FEA /* MarioCloneSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8DF17372DC16CAD00BF4FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F8DF173E2DC16CAD00BF4FEA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F8DF174E2DC16CAF00BF4FEA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F8DF173E2DC16CAD00BF4FEA;
+					};
+					F8DF17582DC16CAF00BF4FEA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F8DF173E2DC16CAD00BF4FEA;
+					};
+				};
+			};
+			buildConfigurationList = F8DF173A2DC16CAD00BF4FEA /* Build configuration list for PBXProject "MarioCloneSwiftUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8DF17362DC16CAD00BF4FEA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F8DF17402DC16CAD00BF4FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8DF173E2DC16CAD00BF4FEA /* MarioCloneSwiftUI */,
+				F8DF174E2DC16CAF00BF4FEA /* MarioCloneSwiftUITests */,
+				F8DF17582DC16CAF00BF4FEA /* MarioCloneSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8DF173D2DC16CAD00BF4FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DF174D2DC16CAF00BF4FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DF17572DC16CAF00BF4FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8DF173B2DC16CAD00BF4FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DF174B2DC16CAF00BF4FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DF17552DC16CAF00BF4FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8DF17512DC16CAF00BF4FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8DF173E2DC16CAD00BF4FEA /* MarioCloneSwiftUI */;
+			targetProxy = F8DF17502DC16CAF00BF4FEA /* PBXContainerItemProxy */;
+		};
+		F8DF175B2DC16CAF00BF4FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8DF173E2DC16CAD00BF4FEA /* MarioCloneSwiftUI */;
+			targetProxy = F8DF175A2DC16CAF00BF4FEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8DF17612DC16CAF00BF4FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8DF17622DC16CAF00BF4FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8DF17642DC16CAF00BF4FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarioCloneSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = UKXM3M8TBB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarioCloneSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8DF17652DC16CAF00BF4FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarioCloneSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = UKXM3M8TBB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarioCloneSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8DF17672DC16CAF00BF4FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKXM3M8TBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarioCloneSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioCloneSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarioCloneSwiftUI";
+			};
+			name = Debug;
+		};
+		F8DF17682DC16CAF00BF4FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKXM3M8TBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarioCloneSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioCloneSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarioCloneSwiftUI";
+			};
+			name = Release;
+		};
+		F8DF176A2DC16CAF00BF4FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKXM3M8TBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarioCloneSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarioCloneSwiftUI;
+			};
+			name = Debug;
+		};
+		F8DF176B2DC16CAF00BF4FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKXM3M8TBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarioCloneSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarioCloneSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8DF173A2DC16CAD00BF4FEA /* Build configuration list for PBXProject "MarioCloneSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DF17612DC16CAF00BF4FEA /* Debug */,
+				F8DF17622DC16CAF00BF4FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8DF17632DC16CAF00BF4FEA /* Build configuration list for PBXNativeTarget "MarioCloneSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DF17642DC16CAF00BF4FEA /* Debug */,
+				F8DF17652DC16CAF00BF4FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8DF17662DC16CAF00BF4FEA /* Build configuration list for PBXNativeTarget "MarioCloneSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DF17672DC16CAF00BF4FEA /* Debug */,
+				F8DF17682DC16CAF00BF4FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8DF17692DC16CAF00BF4FEA /* Build configuration list for PBXNativeTarget "MarioCloneSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DF176A2DC16CAF00BF4FEA /* Debug */,
+				F8DF176B2DC16CAF00BF4FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8DF17372DC16CAD00BF4FEA /* Project object */;
+}
