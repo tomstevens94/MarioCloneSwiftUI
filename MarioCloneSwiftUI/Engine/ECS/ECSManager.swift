@@ -5,8 +5,9 @@ class ECSManager {
     private let renderSystem = RenderSystem()
     private var componentManager = ComponentManager()
     
-    init(tileManager: TileManager) {
+    init(tileManager: TileManager, inputManager: InputManager) {
         systems = [
+            ControlSystem(inputManager: inputManager),
             GravitySystem(),
             MovementSystem(),
             TileCollisionSystem(tileManager: tileManager, renderSystem: renderSystem),
