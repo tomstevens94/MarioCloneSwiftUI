@@ -55,10 +55,38 @@ struct ContentView: View {
                 executeDrawCommands(viewModel.debugDrawCommands, on: context)
             }
             
-            Button("Press") {
-                print("PRESSED")
+            HStack(spacing: 0) {
+                Color.clear
+                    .contentShape(Rectangle())
+                    .gesture(
+                        DragGesture(minimumDistance: 0)
+                            .onChanged{ _ in
+                                viewModel.inputManager.beginInput(
+                                    input: .left
+                                )
+                            }.onEnded{ _ in
+                                viewModel.inputManager.endInput(
+                                    input: .left
+                                )
+                            }
+                    )
+                Color.clear
+                    .contentShape(Rectangle())
+                    .gesture(
+                        DragGesture(minimumDistance: 0)
+                            .onChanged{ _ in
+                                print("IN RIGHT")
+                                viewModel.inputManager.beginInput(
+                                    input: .right
+                                )
+                            }.onEnded{ _ in
+                                print("OUT RIGHT")
+                                viewModel.inputManager.endInput(
+                                    input: .right
+                                )
+                            }
+                    )
             }
-            .padding(32)
         }
         .ignoresSafeArea()
     }
