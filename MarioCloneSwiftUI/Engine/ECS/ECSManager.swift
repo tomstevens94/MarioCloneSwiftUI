@@ -3,7 +3,7 @@ class ECSManager {
     private var systems: [Updatable]
     
     private let renderSystem = RenderSystem()
-    private var componentManager = ComponentManager()
+    private let componentManager = ComponentManager()
     
     init(tileManager: TileManager, inputManager: InputManager) {
         systems = [
