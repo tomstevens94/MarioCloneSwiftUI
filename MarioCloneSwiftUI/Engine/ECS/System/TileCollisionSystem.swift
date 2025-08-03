@@ -5,6 +5,7 @@ struct CollisionData {
     var overlapY: Double
     var lazyDistance: Double
     var normal: CGVector
+    var position: CGPoint
 }
 
 class TileCollisionSystem: Updatable {
@@ -93,18 +94,23 @@ class TileCollisionSystem: Updatable {
                     let overlapX = min(abs(entityMaxX - tileMinX), abs(entityMinX - tileMaxX))
                     let overlapY = min(abs(entityMaxY - tileMinY), abs(entityMinY - tileMaxY))
                     
+                    let horizontalNormal = CGVector(
+                        dx: (entityCenterX - tileCenterX) / abs(entityCenterX - tileCenterX),
+                        dy: 0
+                    )
+                    let verticalNormal = CGVector(
+                        dx: 0,
+                        dy: (entityCenterY - tileCenterY) / abs(entityCenterY - tileCenterY)
+                    )
+                    
+                    let normal = overlapX < overlapY ? horizontalNormal : verticalNormal
+                    
                     return CollisionData(
                         overlapX: overlapX,
                         overlapY: overlapY,
                         lazyDistance: abs(tileCenterX - entityCenterX) + abs(tileCenterY - entityCenterY),
-                        normal: overlapX < overlapY ?
-                            CGVector(
-                            dx: (entityCenterX - tileCenterX) / abs(entityCenterX - tileCenterX),
-                            dy: 0
-                        ) : CGVector(
-                            dx: 0,
-                            dy: (entityCenterY - tileCenterY) / abs(entityCenterY - tileCenterY)
-                        )
+                        normal: normal,
+                        position: tilePositionComponent
                     )
                 }
                 
@@ -125,11 +131,22 @@ class TileCollisionSystem: Updatable {
                         position.y += collision.overlapY * collision.normal.dy
                         velocity.dy = 0
                     } else {
+                        let tileAtNormal: CGPoint = .init(
+                            x: collision.position.x + (collision.normal.dx * 16.0),
+                            y: collision.position.y + (collision.normal.dy * 16.0)
+                        )
+                        
+                        
+                        if narrowPhaseCollisions.contains(where: { otherCollision in
+                            otherCollision.position.x == tileAtNormal.x && otherCollision.position.y == tileAtNormal.y
+                        }) { return }
                         position.x += collision.overlapX * collision.normal.dx
                     }
                     
                     resolvedVectors.append(collision.normal)
                 }
+                
+                print("----")
                 
                 componentManager.add(velocity, to: entity)
                 componentManager.add(position, to: entity)
