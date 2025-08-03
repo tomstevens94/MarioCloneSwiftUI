@@ -20,6 +20,7 @@ extension ContentView {
         private(set) var sprites = [SpriteName: Sprite]()
         
         private(set) var timer: GameTimer
+        private(set) var inputManager: InputManager
         private(set) var ecsManager: ECSManager
         private(set) var tileManager: TileManager
         
@@ -57,10 +58,16 @@ extension ContentView {
         init() {
             self.timer = GameTimer()
             
+            let inputManager = InputManager()
+            self.inputManager = inputManager
+            
             let tileManager = TileManager()
             self.tileManager = tileManager
             
-            self.ecsManager = ECSManager(tileManager: tileManager)
+            self.ecsManager = ECSManager(
+                tileManager: tileManager,
+                inputManager: inputManager
+            )
             
             backgroundDrawCommands = generateBackgroundDrawCommands()
             
@@ -71,7 +78,7 @@ extension ContentView {
                 to: mario
             )
             ecsManager.addComponentToEntity(
-                VelocityComponent(dx: 20, dy: 0),
+                VelocityComponent(dx: 0, dy: 0),
                 to: mario
             )
             ecsManager.addComponentToEntity(
@@ -84,6 +91,18 @@ extension ContentView {
             )
             ecsManager.addComponentToEntity(
                 RenderComponent(spriteName: .marioIdle),
+                to: mario
+            )
+            ecsManager.addComponentToEntity(
+                InputComponent(
+                    acceptedInputs: Set(
+                        [.left, .right]
+                    )
+                ),
+                to: mario
+            )
+            ecsManager.addComponentToEntity(
+                WalkComponent(speed: 1),
                 to: mario
             )
             

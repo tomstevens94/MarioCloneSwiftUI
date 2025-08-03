@@ -55,10 +55,9 @@ struct ContentView: View {
                 executeDrawCommands(viewModel.debugDrawCommands, on: context)
             }
             
-            Button("Press") {
-                print("PRESSED")
-            }
-            .padding(32)
+            FullScreenControls(
+                inputManager: viewModel.inputManager
+            )
         }
         .ignoresSafeArea()
     }

@@ -125,7 +125,6 @@ class TileCollisionSystem: Updatable {
                         position.y += collision.overlapY * collision.normal.dy
                         velocity.dy = 0
                     } else {
-                        print(collision.normal)
                         position.x += collision.overlapX * collision.normal.dx
                     }
                     
